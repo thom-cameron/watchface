@@ -1,0 +1,41 @@
+{
+    "author": "Thom Cameron",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "thom-s-watchface",
+    "pebble": {
+        "displayName": "thom's watchface",
+        "enableMultiJS": true,
+        "manifestVersion": 2,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/cascadia-code-48.ttf",
+                    "name": "FONT_CASCADIA_CODE_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/cascadia-code-22.ttf",
+                    "name": "FONT_CASCADIA_CODE_22",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "gabbro"
+        ],
+        "usesPermissions": [],
+        "uuid": "782761b4-b647-47be-a90c-2d97391a7be2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.1.0"
+}
